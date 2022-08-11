@@ -1,0 +1,29 @@
+.featured_info{
+    padding: 2rem;
+}
+.featured_info .featured_info_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.featured_info .featured_info_item{
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.9975);
+    padding: 1rem;
+}
+.featured_info .featured_info_item h4{
+    padding: 0.5rem;
+}
+.featured_info .featured_info_item h2{
+    padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.featured_info .featured_info_item h2 span{
+    padding-left: 0.75rem;
+    font-size: 1rem;
+}
+.featured_info .featured_info_item h2 span .up{
+    color: rgb(18, 135, 67);
+}
+.featured_info .featured_info_item h2 span .down{
+    color: rgb(255, 0, 0);
+}

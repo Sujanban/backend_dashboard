@@ -1,0 +1,23 @@
+.sidebar{
+    height: 90vh;
+    position: sticky;
+    top: 10vh;
+    padding: 2rem;
+}
+.sidebar .sidebar_item{
+    margin-bottom: 1.75rem;
+}
+.sidebar .sidebar_item li{
+    border-radius: 0.35rem;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0.35rem 0.5rem;
+}
+.sidebar .sidebar_item li a{
+    padding-left: 0.5rem;
+}
+.sidebar .sidebar_item li:hover, .sidebar .sidebar_item li.active    {
+    background-color: rgb(218, 231, 243);
+    
+}

@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    padding: 0rem 2rem;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .top_left a{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(64, 13, 13);
+}
+
+header .top_right{
+    display: flex;
+    align-items: center;
+}
+header .top_right_icons{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    margin: 0rem 1rem;
+}
+header .top_right_icons .top_right_icons_badge{
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    height: 15px;
+    width: 15px;
+    font-size: 0.75rem;
+    border-radius: 50%;
+    color: white;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .top_right .top_avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
